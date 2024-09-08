@@ -7,3 +7,10 @@ git push
 git pull
 git switch 
 git branch
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+``` 
